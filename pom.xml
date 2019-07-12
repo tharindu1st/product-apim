@@ -1101,6 +1101,13 @@
                 <artifactId>jackson-dataformat-yaml</artifactId>
                 <version>${com.fasterxml.jackson.dataformat.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.8</version>
+                <scope>test</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
